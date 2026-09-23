@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>The Unit Gym | Strength • Fitness • Results — Sevenoaks</title>
+  <meta name="description" content="The Unit Gym, Unit 65 Heaver Trading Estate, Ash Road, Sevenoaks TN15 7HJ. Real training, real results. Memberships from £22.50/month, no contracts, ages 14+. First session free." />
+  <meta property="og:title" content="The Unit Gym | Real Training. Real Results. Sevenoaks" />
+  <meta property="og:description" content="Strength • Fitness • Results. Day pass £7.50, weekly £20, direct debit £25/mo, monthly £35/mo, student £20/mo. First session free." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="assets/img/unit-logo.png" />
+  <link rel="icon" type="image/png" href="assets/img/unit-logo.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@400;500;600;700;800&family=Oswald:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            ink: '#0A0A0A',
+            coal: '#131313',
+            steel: '#1E1E1E',
+            bone: '#F5F3EF',
+            muted: '#A3A3A3',
+            volt: '#7FC400',
+            blood: '#E10600',
+          },
+          fontFamily: {
+            display: ['Anton', 'Oswald', 'sans-serif'],
+            cond: ['Oswald', 'sans-serif'],
+            body: ['Inter', 'sans-serif'],
+          },
+        }
+      }
+    }
+  </script>
+  <link rel="stylesheet" href="css/styles.css" />
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ExerciseGym",
+    "name": "The Unit Gym",
+    "slogan": "Strength • Fitness • Results",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Unit 65, Heaver Trading Estate, Ash Road",
+      "addressLocality": "Sevenoaks",
+      "postalCode": "TN15 7HJ",
+      "addressCountry": "GB"
+    },
+    "openingHours": ["Mo-Fr 09:00-21:00", "Sa-Su 10:00-16:00"],
+    "priceRange": "£7.50-£35.00"
+  }
+  </script>
+</head>
+<body class="bg-ink text-bone font-body antialiased">
+
+  <!-- Top banner -->
+  <div class="bg-volt text-ink text-center text-[13px] font-bold tracking-wide px-4 py-2">
+    FIRST SESSION FREE — TRAIN YOUR WAY, MEMBERSHIPS FROM £22.50/MONTH
+    <a href="#membership" class="underline underline-offset-2 ml-1">See Options →</a>
+  </div>
+
+  <!-- Header -->
+  <header id="site-header" class="sticky top-0 z-50 bg-ink/90 backdrop-blur border-b border-white/10">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 flex items-center justify-between h-16">
+      <a href="#top" class="flex items-center gap-3">
+        <img src="assets/img/unit-logo.png" alt="The Unit Gym logo — Strength, Fitness, Results" class="h-10 w-10 object-cover rounded-full" />
+        <span class="font-display text-xl tracking-wider hidden sm:block">THE UNIT <span class="text-volt">GYM</span></span>
+      </a>
+      <nav class="hidden lg:flex items-center gap-6 text-sm font-semibold tracking-wide text-bone/80">
+        <a href="#about" class="hover:text-volt">ABOUT</a>
+        <a href="#facility" class="hover:text-volt">FACILITY</a>
+        <a href="#membership" class="hover:text-volt">MEMBERSHIP</a>
+        <a href="#why" class="hover:text-volt">WHY US</a>
+        <a href="#hours" class="hover:text-volt">HOURS</a>
+        <a href="#faq" class="hover:text-volt">FAQ</a>
+        <a href="#location" class="hover:text-volt">FIND US</a>
+      </nav>
+      <div class="flex items-center gap-2">
+        <a href="#membership" class="btn-primary hidden sm:inline-flex">First Session Free</a>
+        <button id="nav-toggle" class="lg:hidden p-2 border border-white/20 rounded" aria-label="Open menu" aria-expanded="false">☰</button>
+      </div>
+    </div>
+    <div id="mobile-nav" class="lg:hidden hidden border-t border-white/10 bg-coal px-4 py-4 space-y-3 text-sm font-bold">
+      <a href="#about" class="block">ABOUT</a>
+      <a href="#facility" class="block">FACILITY</a>
+      <a href="#membership" class="block">MEMBERSHIP</a>
+      <a href="#why" class="block">WHY US</a>
+      <a href="#hours" class="block">HOURS</a>
+      <a href="#faq" class="block">FAQ</a>
+      <a href="#location" class="block">FIND US</a>
+      <a href="#membership" class="btn-primary inline-flex mt-2">First Session Free</a>
+    </div>
+  </header>
+
+  <main id="top">
+    <!-- HERO -->
+    <section class="relative min-h-[92vh] flex items-end overflow-hidden">
+      <img src="assets/img/gym-floor-1.jpg" alt="Training floor at The Unit Gym, Sevenoaks" class="absolute inset-0 w-full h-full object-cover" />
+      <div class="absolute inset-0 hero-overlay"></div>
+      <div class="relative max-w-7xl mx-auto px-4 sm:px-6 pb-16 pt-32 w-full grid lg:grid-cols-[1fr_auto] gap-10 items-end">
+        <div>
+          <p class="font-cond tracking-[0.3em] text-volt text-sm mb-4">SEVENOAKS — STRENGTH • FITNESS • RESULTS</p>
+          <h1 class="font-display text-5xl sm:text-7xl lg:text-8xl leading-[0.95]">REAL TRAINING.<br /><span class="text-volt">REAL RESULTS.</span></h1>
+          <p class="mt-6 max-w-2xl text-lg text-bone/85">A welcoming, no-nonsense gym focused on strength, fitness and personal progress. Beginner &amp; experienced lifters welcome. Ages 14+. No contracts.</p>
+          <div class="mt-8 flex flex-wrap gap-3">
+            <a href="#membership" class="btn-primary">First Session Free</a>
+            <a href="#membership" class="btn-ghost">Memberships from £22.50/mo</a>
+            <a href="#location" class="btn-ghost">Find Us ↓</a>
+          </div>
+          <div class="mt-10 grid grid-cols-3 max-w-xl gap-px bg-white/15 border border-white/15">
+            <div class="bg-ink/80 p-4 text-center"><p class="font-display text-3xl text-volt">£7.50</p><p class="text-xs tracking-widest text-bone/70">DAY PASS</p></div>
+            <div class="bg-ink/80 p-4 text-center"><p class="font-display text-3xl text-volt">14+</p><p class="text-xs tracking-widest text-bone/70">AGES WELCOME</p></div>
+            <div class="bg-ink/80 p-4 text-center"><p class="font-display text-3xl text-volt">£0</p><p class="text-xs tracking-widest text-bone/70">FIRST SESSION</p></div>
+          </div>
+        </div>
+        <img src="assets/img/unit-logo.png" alt="The Unit Gym circular logo" class="hidden lg:block w-72 h-72 object-cover rounded-full border-4 border-volt/60 shadow-2xl" />
+      </div>
+    </section>
+
+    <!-- Marquee -->
+    <div class="marquee bg-volt text-ink font-display text-xl tracking-widest py-3 overflow-hidden whitespace-nowrap">
+      <span>TRAIN HARD • STAY CONSISTENT • GET RESULTS • STRENGTH • FITNESS • RESULTS •&nbsp;</span><span aria-hidden="true">TRAIN HARD • STAY CONSISTENT • GET RESULTS • STRENGTH • FITNESS • RESULTS •&nbsp;</span>
+    </div>
+
+    <!-- ABOUT -->
+    <section id="about" class="max-w-7xl mx-auto px-4 sm:px-6 py-20">
+      <p class="section-kicker">The Unit Gym — Sevenoaks</p>
+      <h2 class="section-title">TRAIN YOUR WAY, <span class="text-volt">YOUR PROGRESS.</span></h2>
+      <p class="mt-4 max-w-3xl text-bone/75">A welcoming, no-nonsense gym focused on strength, fitness and personal progress. Whether you're picking up a barbell for the first time or chasing your next PB, you'll find quality equipment and a friendly, supportive environment — with no contracts locking you in.</p>
+      <div class="mt-10 grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
+        <div class="card"><p class="card-num">01</p><h3>Strength Focused</h3><p>Built around real barbell and resistance training for measurable progress.</p></div>
+        <div class="card"><p class="card-num">02</p><h3>All Levels Welcome</h3><p>Beginner &amp; experienced lifters welcome — suitable for ages 14+.</p></div>
+        <div class="card"><p class="card-num">03</p><h3>No-Nonsense, No Contracts</h3><p>Friendly and supportive, without the hard sell or long tie-ins.</p></div>
+      </div>
+      <div class="mt-10 grid md:grid-cols-2 gap-4">
+        <img src="assets/img/gym-floor-2.jpg" alt="Resistance equipment at The Unit Gym" class="rounded-lg object-cover h-96 w-full" loading="lazy" />
+        <div class="bg-steel rounded-lg p-8 flex flex-col justify-center">
+          <p class="font-display text-3xl">FIRST SESSION FREE.</p>
+          <p class="text-bone/75 mt-3">Come train, meet the team and feel the atmosphere before you commit to anything. Follow us on social media for updates, offers &amp; more.</p>
+          <a href="#membership" class="btn-primary mt-6 self-start">See Membership Options</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- FACILITY GALLERY -->
+    <section id="facility" class="bg-coal border-y border-white/10">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 py-20">
+        <p class="section-kicker">The Facility</p>
+        <h2 class="section-title">QUALITY EQUIPMENT, <span class="text-volt">READY TO TRAIN.</span></h2>
+        <p class="mt-4 text-bone/75 max-w-3xl">Tap any photo to view. Free weights, resistance machines and conditioning kit in a no-nonsense training space.</p>
+        <div id="gallery" class="mt-10 grid sm:grid-cols-2 lg:grid-cols-4 gap-4">
+          <button class="gallery-item" data-full="assets/img/gym-floor-1.jpg"><img src="assets/img/gym-floor-1.jpg" alt="Main training floor" loading="lazy" /><span>Main Floor</span></button>
+          <button class="gallery-item" data-full="assets/img/gym-floor-2.jpg"><img src="assets/img/gym-floor-2.jpg" alt="Machine lineup" loading="lazy" /><span>Machine Lineup</span></button>
+          <button class="gallery-item" data-full="assets/img/gym-floor-3.jpg"><img src="assets/img/gym-floor-3.jpg" alt="Strength equipment" loading="lazy" /><span>Strength Zone</span></button>
+          <button class="gallery-item" data-full="assets/img/gym-floor-4.jpg"><img src="assets/img/gym-floor-4.jpg" alt="Full facility view" loading="lazy" /><span>Full Facility</span></button>
+        </div>
+        <div class="mt-6 flex flex-wrap gap-2 text-xs font-bold tracking-widest">
+          <span class="chip">FREE WEIGHTS</span><span class="chip">RESISTANCE MACHINES</span><span class="chip">STRENGTH</span><span class="chip">FITNESS</span><span class="chip">AGES 14+</span><span class="chip">BEGINNERS WELCOME</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- MEMBERSHIP — matches flyer exactly -->
+    <section id="membership" class="max-w-7xl mx-auto px-4 sm:px-6 py-20">
+      <p class="section-kicker">Membership Options</p>
+      <h2 class="section-title">TRAIN YOUR WAY <span class="text-volt">FROM £22.50/MONTH.</span></h2>
+      <p class="mt-4 text-bone/75 max-w-3xl">Flexible options with no contracts. Prices taken directly from the gym's membership poster — always confirm in-gym or on socials before travelling.</p>
+      <div class="mt-10 grid lg:grid-cols-2 gap-8 items-start">
+        <div class="bg-ink border border-volt/50 rounded-lg overflow-hidden">
+          <p class="bg-volt text-ink font-display text-xl tracking-wider text-center py-3">MEMBERSHIP OPTIONS</p>
+          <ul class="divide-y divide-white/10">
+            <li class="flex items-center justify-between px-6 py-4"><span class="font-cond font-semibold tracking-wide">DAY PASS</span><span class="font-display text-2xl text-volt">£7.50</span></li>
+            <li class="flex items-center justify-between px-6 py-4"><span class="font-cond font-semibold tracking-wide">WEEKLY PASS</span><span class="font-display text-2xl text-volt">£20.00</span></li>
+            <li class="flex items-center justify-between px-6 py-4"><span class="font-cond font-semibold tracking-wide">DIRECT DEBIT MEMBERSHIP</span><span class="font-display text-2xl text-volt">£25.00 <span class="text-sm font-body text-bone/60">/month</span></span></li>
+            <li class="flex items-center justify-between px-6 py-4"><span class="font-cond font-semibold tracking-wide">MONTHLY MEMBERSHIP</span><span class="font-display text-2xl text-volt">£35.00 <span class="text-sm font-body text-bone/60">/month</span></span></li>
+            <li class="flex items-center justify-between px-6 py-4"><span class="font-cond font-semibold tracking-wide">STUDENT MEMBERSHIP</span><span class="font-display text-2xl text-volt">£20.00 <span class="text-sm font-body text-bone/60">/month</span></span></li>
+          </ul>
+          <div class="px-6 py-5 bg-steel flex flex-wrap items-center gap-3">
+            <span class="font-display text-2xl">FIRST SESSION <span class="text-volt">FREE</span></span>
+            <a href="#location" class="btn-primary ml-auto">Claim In Gym</a>
+          </div>
+        </div>
+        <div>
+          <img src="assets/img/membership-poster.png" alt="The Unit Gym official membership poster with prices, hours and address" class="rounded-lg border border-white/10 w-full" loading="lazy" />
+          <p class="mt-3 text-xs text-bone/50">Source: official gym membership flyer (assets/img/membership-poster.png). Prices in GBP.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- WHY -->
+    <section id="why" class="bg-coal border-y border-white/10">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 py-20 grid lg:grid-cols-2 gap-10 items-center">
+        <img src="assets/img/gym-floor-3.jpg" alt="Member training at The Unit Gym" class="rounded-lg object-cover h-[440px] w-full" loading="lazy" />
+        <div>
+          <p class="section-kicker">Why The Unit</p>
+          <h2 class="section-title">REAL TRAINING. <span class="text-volt">REAL RESULTS.</span></h2>
+          <ul class="mt-6 space-y-3 text-sm">
+            <li class="rule">✓ Suitable for ages 14+</li>
+            <li class="rule">✓ Beginner &amp; experienced lifters welcome</li>
+            <li class="rule">✓ Friendly and supportive environment</li>
+            <li class="rule">✓ Quality equipment</li>
+            <li class="rule">✓ No contracts</li>
+          </ul>
+          <a href="#location" class="btn-primary mt-6">Start With A Free Session</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- HOURS -->
+    <section id="hours" class="max-w-7xl mx-auto px-4 sm:px-6 py-20">
+      <p class="section-kicker">Opening Hours</p>
+      <h2 class="section-title">WHEN TO <span class="text-volt">TRAIN.</span></h2>
+      <div class="mt-10 grid sm:grid-cols-3 gap-4">
+        <div class="card text-center"><p class="card-num">MONDAY – FRIDAY</p><p class="font-display text-3xl text-bone mt-2">9:00AM – 9:00PM</p></div>
+        <div class="card text-center"><p class="card-num">SATURDAY</p><p class="font-display text-3xl text-bone mt-2">10:00AM – 4:00PM</p></div>
+        <div class="card text-center"><p class="card-num">SUNDAY</p><p class="font-display text-3xl text-bone mt-2">10:00AM – 4:00PM</p></div>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section id="faq" class="bg-coal border-y border-white/10">
+      <div class="max-w-4xl mx-auto px-4 sm:px-6 py-20">
+        <p class="section-kicker">Good To Know</p>
+        <h2 class="section-title">FREQUENTLY ASKED <span class="text-volt">QUESTIONS.</span></h2>
+        <div class="mt-8 space-y-3" id="faq-list">
+          <details class="faq" open><summary>How much is membership?</summary><p>Day pass £7.50 · Weekly pass £20.00 · Direct debit £25.00/month · Monthly £35.00/month · Student £20.00/month. Memberships advertised from £22.50/month. No contracts.</p></details>
+          <details class="faq"><summary>Is the first session really free?</summary><p>Yes — the gym offers a free first session so you can try the equipment and atmosphere before committing.</p></details>
+          <details class="faq"><summary>What are the opening hours?</summary><p>Monday–Friday 9:00am–9:00pm, Saturday &amp; Sunday 10:00am–4:00pm.</p></details>
+          <details class="faq"><summary>Who can train here?</summary><p>Ages 14+. Beginners and experienced lifters are both welcome in a friendly, supportive environment.</p></details>
+          <details class="faq"><summary>Am I locked into a contract?</summary><p>No — the gym advertises no contracts across its membership options.</p></details>
+          <details class="faq"><summary>Where is the gym?</summary><p>Unit 65, Heaver Trading Estate, Ash Road, Sevenoaks TN15 7HJ. See the map below for directions.</p></details>
+          <details class="faq"><summary>How do I stay updated on offers?</summary><p>Follow the gym on social media for updates, offers &amp; more.</p></details>
+        </div>
+      </div>
+    </section>
+
+    <!-- LOCATION / CTA -->
+    <section id="location" class="max-w-7xl mx-auto px-4 sm:px-6 py-20 grid lg:grid-cols-2 gap-8">
+      <div>
+        <p class="section-kicker">Find Us</p>
+        <h2 class="section-title">COME TRAIN <span class="text-volt">WITH US.</span></h2>
+        <p class="mt-4 font-display text-2xl">THE UNIT GYM<br />UNIT 65, HEAVER TRADING ESTATE<br />ASH ROAD, SEVENOAKS TN15 7HJ</p>
+        <p class="mt-2 text-bone/70 text-sm">Mon–Fri 9am–9pm · Sat–Sun 10am–4pm</p>
+        <div class="mt-6 flex flex-wrap gap-3">
+          <a href="https://www.google.com/maps/dir/?api=1&destination=Unit+65+Heaver+Trading+Estate+Ash+Road+Sevenoaks+TN15+7HJ" target="_blank" rel="noopener" class="btn-primary">Get Directions →</a>
+          <a href="#membership" class="btn-ghost">First Session Free</a>
+        </div>
+        <div class="mt-8 bg-steel rounded-lg p-6">
+          <p class="font-display text-3xl">TRAIN HARD. STAY CONSISTENT. GET RESULTS.</p>
+          <p class="text-bone/75 mt-2 text-sm">Strength • Fitness • Results. Claim your free first session and see the standard for yourself.</p>
+          <a href="#membership" class="btn-primary mt-4">See Membership Options</a>
+        </div>
+      </div>
+      <div class="rounded-lg overflow-hidden border border-white/10 min-h-[420px]">
+        <iframe title="Map to The Unit Gym, Sevenoaks" src="https://www.google.com/maps?q=Heaver+Trading+Estate+Ash+Road+Sevenoaks+TN15+7HJ&output=embed" class="w-full h-full min-h-[420px]" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="bg-coal border-t border-white/10">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 py-12 grid md:grid-cols-4 gap-8">
+      <div>
+        <img src="assets/img/unit-logo.png" alt="The Unit Gym" class="h-12 w-12 object-cover rounded-full mb-3" />
+        <p class="text-sm text-bone/70">Strength • Fitness • Results. Real training, real results in Sevenoaks.</p>
+      </div>
+      <div>
+        <p class="font-bold text-sm tracking-widest mb-3">EXPLORE</p>
+        <ul class="space-y-2 text-sm text-bone/70"><li><a href="#about" class="hover:text-volt">About</a></li><li><a href="#membership" class="hover:text-volt">Membership</a></li><li><a href="#facility" class="hover:text-volt">Facility</a></li><li><a href="#faq" class="hover:text-volt">FAQ</a></li></ul>
+      </div>
+      <div>
+        <p class="font-bold text-sm tracking-widest mb-3">VISIT</p>
+        <p class="text-sm text-bone/70">The Unit Gym<br />Unit 65, Heaver Trading Estate<br />Ash Road, Sevenoaks TN15 7HJ</p>
+        <p class="text-sm text-bone/70 mt-2">Mon–Fri 9–9 · Sat–Sun 10–4</p>
+      </div>
+      <div>
+        <p class="font-bold text-sm tracking-widest mb-3">FOLLOW</p>
+        <p class="text-sm text-bone/70">Follow us on social media for updates, offers &amp; more.</p>
+      </div>
+    </div>
+    <div class="border-t border-white/10 py-4 text-center text-xs text-bone/50">© 2026 The Unit Gym, Sevenoaks. All Rights Reserved. · Train Hard. Stay Consistent. Get Results.</div>
+  </footer>
+
+  <!-- Lightbox -->
+  <div id="lightbox" class="fixed inset-0 z-[60] hidden items-center justify-center bg-black/90 p-4">
+    <button id="lightbox-close" class="absolute top-4 right-4 text-3xl p-2" aria-label="Close">×</button>
+    <img id="lightbox-img" src="" alt="Facility photo enlarged" class="max-h-[85vh] max-w-full rounded" />
+  </div>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
